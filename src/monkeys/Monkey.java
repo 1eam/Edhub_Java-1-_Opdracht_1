@@ -18,4 +18,12 @@ public class Monkey {
 	public void makeNoise() {
 		System.out.println("OOH OOH AAH AAH!");
 	}
+	
+	public void geefBanaan() {
+		
+	}
+	
+	public void krijgBanaan() {
+		
+	}
 }
