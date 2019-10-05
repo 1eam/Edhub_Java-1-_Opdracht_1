@@ -26,4 +26,8 @@ public class Monkey {
 	public void krijgBanaan() {
 		
 	}
+	
+	public boolean hasBanana() {
+		return boolean;
+	}
 }
