@@ -16,6 +16,8 @@ public class Main {
 		monkey1.giveBananaTo(variableMonkey);
 		
 		monkey2.hasBanana();
+		
+		banana.printMyOwner();
 
 	}
 }
