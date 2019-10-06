@@ -4,6 +4,14 @@ public class Monkey {
 	private String monkeyName;
 	private int monkeyAge;
 	private float monkeyWeight;
+	private Banana banana;
+	
+	public Monkey (String name, int age, float weight, Banana banana) {
+		this.monkeyName = name;
+		this.monkeyAge = age;
+		this.monkeyWeight = weight;
+		this.banana = new Banana ();
+	}
 	
 	public Monkey (String name, int age, float weight) {
 		this.monkeyName = name;
@@ -19,7 +27,7 @@ public class Monkey {
 		System.out.println("OOH OOH AAH AAH!");
 	}
 	
-	public void geefBanaan() {
+	public Banana giveBananaTo(Monkey monkeyobj) {
 		
 	}
 	

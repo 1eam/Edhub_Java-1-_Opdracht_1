@@ -3,7 +3,7 @@ package monkeys;
 public class Main {
 
 	public static void main(String[] args) {
-		Monkey monkey1 = new Monkey("Rikki", 14, 61.4f);
+		Monkey monkey1 = new Monkey("Rikki", 14, 61.4f, "banana");
 		Monkey monkey2 = new Monkey("Simba", 8, 34.6f);
 		Banana banana = new Banana();
 		
@@ -13,11 +13,13 @@ public class Main {
 		monkey2.introduceSelf();
 		monkey2.makeNoise();
 		
-		monkey1.giveBananaTo(variableMonkey);
+		banana.introduceSelf();
 		
-		monkey2.hasBanana();
+		//monkey1.giveBananaTo(takesMonkeyobject);
 		
-		banana.printMyOwner();
+//		monkey2.hasBanana();
+		
+	//	banana.printMyOwner();
 
 	}
 }
