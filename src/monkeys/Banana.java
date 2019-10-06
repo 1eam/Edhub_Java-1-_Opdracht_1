@@ -1,15 +1,15 @@
 package monkeys;
 
 public class Banana {
-	
-	Monkey owner;
+		
+//	Monkey owner;
 
 	public void introduceSelf() {
 		System.out.println("Im a Banana");
 		}
 	
 	public void printMyOwner() {
-	System.out.println("Im a Banana, My owner is" + owner.monkeyName);
+	System.out.println("Im a Banana, My owner is " + this.Monkey.monkeyName);
 	}
 	
 	public boolean imHere() {
