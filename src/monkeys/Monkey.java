@@ -28,7 +28,18 @@ public class Monkey {
 
 	public void giveBananaTo(Monkey monkeyobj, Banana myBanana) {
 		monkeyobj.banana = myBanana;
+		myBanana.owner = monkeyobj;
+		
 	}
+	
+
+	public void giveMyBananaTo(Monkey monkeyobj) {
+		monkeyobj.banana = this.banana;
+		this.banana.owner = monkeyobj;
+		this.banana=null;
+		
+	}
+	
 
 	public boolean hasBanana() {
 		//check if this.Monkey.banana == new banana
