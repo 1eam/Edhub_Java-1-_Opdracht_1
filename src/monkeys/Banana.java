@@ -12,7 +12,4 @@ public class Banana {
 	System.out.println("Im a Banana, My owner is " + owner.monkeyName);
 	}
 	
-	public boolean imHere() {
-		return true;
-	}
 }
